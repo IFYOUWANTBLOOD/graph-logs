@@ -14,7 +14,7 @@ win.graph({
     {'07:48:30',800}
 })
 ```
-result
+## result
 ![image](https://user-images.githubusercontent.com/72479668/134770750-9f6124e9-9250-4b3d-a138-2c2ac2b605ea.png)
 
 #video
