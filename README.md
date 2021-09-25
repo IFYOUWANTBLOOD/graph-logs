@@ -2,7 +2,7 @@ lib for showing progress or some shit
 * you can use the graph and also the text logs
 
 ```lua
-local lib = 
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/loglizzy/graph-logs/main/main.lua'))()
 local win = lib.new('logs','gold')
 win.add('<font color="rgb(255,255,100)">Suck 100 dicks</font> quest completed, got 500 gold')
 win.add('another shit completed with sucess, got <font color="rgb(255,255,100)">700</font> bucks')
