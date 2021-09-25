@@ -1,6 +1,7 @@
 lib for showing progress or some shit
 * you can use the graph and also the text logs
 
+# example
 ```lua
 local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/loglizzy/graph-logs/main/main.lua'))()
 local win = lib.new('logs','gold')
@@ -13,6 +14,7 @@ win.graph({
     {'07:48:30',800}
 })
 ```
+result
 ![image](https://user-images.githubusercontent.com/72479668/134770750-9f6124e9-9250-4b3d-a138-2c2ac2b605ea.png)
 
 #video
