@@ -1,5 +1,6 @@
 lib for showing progress or some shit
 * you can use the graph and also the text logs
+* you can change the graph any time(no lag too)
 
 # example
 ```lua
