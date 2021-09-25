@@ -291,6 +291,8 @@ local lib = {new=function(nm,oth,op)
         end)()
         
         for i,v in pairs(g:GetChildren()) do if v:IsA('TextLabel') then v:Remove() end end
+        for i,v in pairs(s:GetChildren()) do if v:IsA('TextLabel') then v:Remove() end end
+        
         for id,v in pairs(bl) do
         	local id,v,c = v[1],v[2],Instance.new('TextLabel',g)
         	c.Text = v
